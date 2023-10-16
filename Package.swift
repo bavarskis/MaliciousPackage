@@ -14,9 +14,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MaliciousPackage",
-            path: "./Binaries/MaliciousActor.xcframework"),
-        .binaryTarget(
-            name: "MaliciousPackage",
             url: "https://github.com/bavarskis/MaliciousPackage/blob/main/Binaries/MaliciousActor.xcframework.zip",
             checksum: "afe087f15b24fdde8d7c0bccdefec7d6c95ca1aec66b4ea2e61edfe4f77d038b")
     ]

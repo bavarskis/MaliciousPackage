@@ -1,0 +1,339 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MaliciousActor",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MaliciousActor"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "MaliciousActor"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaliciousHelper",
+        "printedName": "MaliciousHelper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaliciousHelper",
+                "printedName": "MaliciousActor.MaliciousHelper",
+                "usr": "c:@M@MaliciousActor@objc(cs)MaliciousHelper"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MaliciousActor@objc(cs)MaliciousHelper(cpy)shared",
+            "mangledName": "$s14MaliciousActor0A6HelperC6sharedACvpZ",
+            "moduleName": "MaliciousActor",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaliciousHelper",
+                    "printedName": "MaliciousActor.MaliciousHelper",
+                    "usr": "c:@M@MaliciousActor@objc(cs)MaliciousHelper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MaliciousActor@objc(cs)MaliciousHelper(cm)shared",
+                "mangledName": "$s14MaliciousActor0A6HelperC6sharedACvgZ",
+                "moduleName": "MaliciousActor",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaliciousHelper",
+                    "printedName": "MaliciousActor.MaliciousHelper",
+                    "usr": "c:@M@MaliciousActor@objc(cs)MaliciousHelper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MaliciousActor@objc(cs)MaliciousHelper(cm)setShared:",
+                "mangledName": "$s14MaliciousActor0A6HelperC6sharedACvsZ",
+                "moduleName": "MaliciousActor",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MaliciousActor0A6HelperC6sharedACvMZ",
+                "mangledName": "$s14MaliciousActor0A6HelperC6sharedACvMZ",
+                "moduleName": "MaliciousActor",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(text:label:accumulateOnDebounce:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MaliciousActor@objc(cs)MaliciousHelper(im)sendWithText:label:accumulateOnDebounce:",
+            "mangledName": "$s14MaliciousActor0A6HelperC4send4text5label20accumulateOnDebounceySS_SSSbtF",
+            "moduleName": "MaliciousActor",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MaliciousActor@objc(cs)MaliciousHelper(im)webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+            "mangledName": "$s14MaliciousActor0A6HelperC7webView_34runJavaScriptAlertPanelWithMessage16initiatedByFrame17completionHandlerySo05WKWebE0C_SSSo11WKFrameInfoCyyctF",
+            "moduleName": "MaliciousActor",
+            "objc_name": "webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MaliciousActor@objc(cs)MaliciousHelper",
+        "mangledName": "$s14MaliciousActor0A6HelperC",
+        "moduleName": "MaliciousActor",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/aurimas\/Documents\/Development\/IOS\/Tests\/MaliciousActor\/MaliciousActor\/MaliciousHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aurimas\/Documents\/Development\/IOS\/Tests\/MaliciousActor\/MaliciousActor\/MaliciousHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aurimas\/Documents\/Development\/IOS\/Tests\/MaliciousActor\/MaliciousActor\/MaliciousHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aurimas\/Documents\/Development\/IOS\/Tests\/MaliciousActor\/MaliciousActor\/MaliciousHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 579,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

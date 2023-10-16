@@ -1,0 +1,11 @@
+framework module MaliciousActor {
+  umbrella header "MaliciousActor.h"
+
+  export *
+  module * { export * }
+}
+
+module MaliciousActor.Swift {
+  header "MaliciousActor-Swift.h"
+  requires objc
+}
